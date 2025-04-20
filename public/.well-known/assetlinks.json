@@ -1,0 +1,11 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.jssdvv.ara",
+      "sha256_cert_fingerprints":
+      ["6B:30:78:FC:5F:F5:22:28:55:A5:B2:E9:6E:8E:B2:44:2C:8C:06:A8:88:5C:E2:95:12:89:E8:33:DB:7D:EC:2F"]
+    }
+  }
+]

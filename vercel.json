@@ -1,0 +1,20 @@
+{
+  "redirects": [
+    {
+      "source": "/.well-known/assetlinks.json",
+      "destination": "/.well-known/assetlinks.json",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "destination": "https://www.arassistant.com/$1",
+      "has": [
+        {
+          "type": "host",
+          "value": "arassistant.com"
+        }
+      ],
+      "permanent": true
+    }
+  ]
+}

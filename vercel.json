@@ -1,15 +1,17 @@
 {
-  "redirects": [
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" }
+  ],
+  "headers": [
     {
       "source": "/.well-known/assetlinks.json",
-      "destination": "/well-known/assetlinks.json",
-      "permanent": true
-    }
-  ],
-  "builds": [
-    {
-      "src": "index.html",
-      "use": "@vercel/static"
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json"
+        }
+      ]
     }
   ]
 }

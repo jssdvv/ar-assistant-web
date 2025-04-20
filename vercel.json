@@ -1,4 +1,11 @@
 {
+  "redirects": [
+    {
+      "source": "/.well-known/assetlinks.json",
+      "destination": "/well-known/assetlinks.json",
+      "permanent": true
+    }
+  ],
   "builds": [
     {
       "src": "index.html",
